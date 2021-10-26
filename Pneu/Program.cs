@@ -1,33 +1,10 @@
-﻿//Desenvolva um programa para ler as coordenadas (M,N) 
-//de uma quantidade indeterminada de pontos no sistema cartesiano. 
-//Para cada ponto escrever o quadrante a que ele pertence. 
-//O algoritmo será encerrado quando pelo menos uma de duas 
-//coordenadas for NULA (nesta situação sem escrever mensagem alguma).
+﻿//Você recebeu o desafio de ler 100 valores inteiros. 
+//Apresente então o maior valor lido e a posição 
+//dentre os 100 valores lidos.
 
-using System; 
+using System;
 
-class TESTE 
+class Name
 {
-        public static void Main()
-        {
-            int x, y;
-            while (true)
-            {
-                string[] s = Console.ReadLine().Split(' ');
-                x = int.Parse(s[0]);
-                y = int.Parse(s[1]);
-
-                if (x == 0 || y == 0)
-                    break;
-                else if (x > 0 && y > 0)
-                    Console.WriteLine("primeiro");
-                else if (x > 0 && y < 0)
-                    Console.WriteLine("quarto");
-                else if (x < 0 && y < 0)
-                    Console.WriteLine("terceiro");
-                else if ( x < 0 && y > 0)         
-                    Console.WriteLine("segundo");             
-            }
-            Console.ReadLine();
-        }
+    
 }
