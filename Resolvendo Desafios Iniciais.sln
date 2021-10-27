@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaiorPosicao", "MaiorPosica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuilhermeSuasPipas", "GuilhermeSuasPipas\GuilhermeSuasPipas.csproj", "{E88DD3C0-9F25-4543-8687-C73D3BB9F476}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomaImparesConsecutivosI", "SomaImparesConsecutivosI\SomaImparesConsecutivosI.csproj", "{41B1496F-8894-45D2-8AC3-341C174DFA48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{E88DD3C0-9F25-4543-8687-C73D3BB9F476}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E88DD3C0-9F25-4543-8687-C73D3BB9F476}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E88DD3C0-9F25-4543-8687-C73D3BB9F476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41B1496F-8894-45D2-8AC3-341C174DFA48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41B1496F-8894-45D2-8AC3-341C174DFA48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41B1496F-8894-45D2-8AC3-341C174DFA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41B1496F-8894-45D2-8AC3-341C174DFA48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

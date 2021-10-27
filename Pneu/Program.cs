@@ -1,21 +1,39 @@
-﻿//Guilherme adora brincar com pipas, pipas de várias cores, formas e tamanhos. 
-//Ele tem percebido que para as pipas possuírem maior estabilidade, e 
-//dessa forma voarem mais alto, elas devem possuir um barbante bem esticado 
-//ligando todos os pares de pontas não vizinhas.
+﻿//Leia 2 valores inteiros X e Y. 
+//A seguir, calcule e mostre a soma dos números impares entre eles.
 
-//Apesar de ser uma criança bastante criativa e astuta, 
-//Guilherme não sabe como determinar a quantidade de barbantes que ele terá que 
-//utilizar para tornar uma pipa de n lados, estável. Você pode ajudá-lo?.
+using System;
 
-using System; 
- 
-class GuilhermeSuasPipas 
+namespace TESTE
 {
-    static void Main(string[] args)
-    { 
-        long n = long.Parse(Console.ReadLine());
-        long resposta = (n * (n - 3)) / 2; 
-        
-        Console.WriteLine(resposta);
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x, y, min, max, soma;
+
+            x = int.Parse(Console.ReadLine());
+            y = int.Parse(Console.ReadLine());
+
+            if (x < y)
+            {
+                min = x;
+                max = y;
+            }
+            else
+            {
+                min = y;
+                max = x;
+            }
+
+            soma = 0;
+            for (int i = min+1; i < max; i++)
+            {
+                if (i % 2 != 0)
+                {
+                    soma += i;
+                }
+            }
+            Console.WriteLine(soma);
+        }
     }
 }
