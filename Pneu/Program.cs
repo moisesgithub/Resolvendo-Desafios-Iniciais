@@ -1,39 +1,28 @@
-﻿//Leia 2 valores inteiros X e Y. 
-//A seguir, calcule e mostre a soma dos números impares entre eles.
+﻿//Desenvolva um programa que leia um valor inteiro n. 
+//Este n refere-se à quantidade de linhas de saída que 
+//serão apresentadas na execução do programa.
 
 using System;
 
-namespace TESTE
+namespace TESTE 
 {
-    class Program
+    class Program 
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
-            int x, y, min, max, soma;
-
-            x = int.Parse(Console.ReadLine());
-            y = int.Parse(Console.ReadLine());
-
-            if (x < y)
-            {
-                min = x;
-                max = y;
-            }
-            else
-            {
-                min = y;
-                max = x;
-            }
-
-            soma = 0;
-            for (int i = min+1; i < max; i++)
-            {
-                if (i % 2 != 0)
-                {
-                    soma += i;
-                }
-            }
-            Console.WriteLine(soma);
+           int N = int.Parse(Console.ReadLine());
+           
+           for (int i = 1; i <= N *4; i++)
+           {
+               if (i % 4 == 0)
+               {
+                   Console.WriteLine("PUM");
+               }
+               else
+               {
+                   Console.WriteLine("P");
+               }
+           } 
         }
     }
 }

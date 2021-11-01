@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pneu", "Pneu\Pneu.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quadrante", "Quadrante\Quadrante.csproj", "{5418820A-66EB-4B87-9223-6136B400A075}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaiorPosicao", "MaiorPosicao\MaiorPosicao.csproj", "{059A5A1F-626A-42CA-8972-33F6932CF47E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaiorPosicao", "MaiorPosicao\MaiorPosicao.csproj", "{059A5A1F-626A-42CA-8972-33F6932CF47E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuilhermeSuasPipas", "GuilhermeSuasPipas\GuilhermeSuasPipas.csproj", "{E88DD3C0-9F25-4543-8687-C73D3BB9F476}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuilhermeSuasPipas", "GuilhermeSuasPipas\GuilhermeSuasPipas.csproj", "{E88DD3C0-9F25-4543-8687-C73D3BB9F476}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomaImparesConsecutivosI", "SomaImparesConsecutivosI\SomaImparesConsecutivosI.csproj", "{41B1496F-8894-45D2-8AC3-341C174DFA48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SomaImparesConsecutivosI", "SomaImparesConsecutivosI\SomaImparesConsecutivosI.csproj", "{41B1496F-8894-45D2-8AC3-341C174DFA48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PUM", "PUM\PUM.csproj", "{F96BB5A8-8F1C-46A6-BD21-8810DCFEC21F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{41B1496F-8894-45D2-8AC3-341C174DFA48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41B1496F-8894-45D2-8AC3-341C174DFA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41B1496F-8894-45D2-8AC3-341C174DFA48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F96BB5A8-8F1C-46A6-BD21-8810DCFEC21F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96BB5A8-8F1C-46A6-BD21-8810DCFEC21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96BB5A8-8F1C-46A6-BD21-8810DCFEC21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96BB5A8-8F1C-46A6-BD21-8810DCFEC21F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
