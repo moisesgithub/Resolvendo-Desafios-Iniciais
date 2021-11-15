@@ -1,25 +1,21 @@
 ﻿/*
-Leia quatro valores inteiros A, B, C e D. A seguir, calcule e 
-mostre a diferença do produto de A e B pelo produto de C e D 
-segundo a fórmula: DIFERENCA = (A * B - C * D).
+Leia 2 valores de ponto flutuante de dupla precisão A e B, 
+que correspondem a 2 notas de um aluno. A seguir, calcule a média do aluno, 
+sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto é 11). 
+Assuma que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
 */
 using System;
-
-namespace Desafio
+class Media
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-           int A, B, C, D, DIFERENCA;
-           
-            A = int.Parse(Console.ReadLine());
-            B = int.Parse(Console.ReadLine());
-            C = int.Parse(Console.ReadLine());
-            D = int.Parse(Console.ReadLine());
-            
-            DIFERENCA = (A * B - C * D);
-            Console.WriteLine("DIFERENCA = " + DIFERENCA);
-        }
+        double a, b, mediaP;
+
+        a = double.Parse(Console.ReadLine());
+        b = double.Parse(Console.ReadLine());
+
+        mediaP = (a * 3.5 + b * 7.5) / 11;
+
+        Console.WriteLine("MEDIA = " + mediaP.ToString("0.00000"));
     }
 }
