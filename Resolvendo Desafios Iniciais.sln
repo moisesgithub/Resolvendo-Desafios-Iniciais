@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Media1", "Media1\Media1.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xenlogao", "Xenlogao\Xenlogao.csproj", "{48F38947-0B97-4053-9252-83AE2226DF1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadradoDePares", "QuadradoDePares\QuadradoDePares.csproj", "{4ABAAD80-878D-4E68-A8D2-3FCB100A18EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{48F38947-0B97-4053-9252-83AE2226DF1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48F38947-0B97-4053-9252-83AE2226DF1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48F38947-0B97-4053-9252-83AE2226DF1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ABAAD80-878D-4E68-A8D2-3FCB100A18EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ABAAD80-878D-4E68-A8D2-3FCB100A18EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ABAAD80-878D-4E68-A8D2-3FCB100A18EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ABAAD80-878D-4E68-A8D2-3FCB100A18EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
